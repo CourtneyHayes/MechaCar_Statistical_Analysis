@@ -12,20 +12,24 @@ Using R to finish a special project from upper management. Perform multiple line
 
 
 #### Linear Regression to Predict MPG
--Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
--Is the slope of the linear model considered to be zero? Why or why not?
--Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+Vehicle length and vehicle weight are the two variables that provided a non-random amount of variance to the mpg values. The slope of this lineaar model is not 
+considered to be zero because the mpg varies greatly depending on physical characteristics. The linear model predicting mpg of MechaCar prototypes is effective because 
+mean and median are close to the same amount.
+
 
 #### Summary Statistic on Suspension Coils
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current 
+manufacturing data does not meet the design specificationfor all lot total and each individual lot.
 
 #### T Test on Suspension Coils Summary
-The findings of this analysis show
+![T Test Results](./ttest_mecha.png)
+
 
 ### Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating
--What metric or metrics are you going to test?
--What is the null hypothesis or alternative hypothesis?
--What statistical test would you use to test the hypothesis? And why?
--What data is needed to run the statistical test?
+To compare the MechaCar's performance against the competition we should analyze the cost, city or highway fuel efficiency, horse power, maintenance cost, and safety 
+rating. This will allow consumers to make an informed decision on the purchase of their new vehicle and allow MechaCar to improve their performance to meet or exceed 
+that of the competition.
+
+
+
 
